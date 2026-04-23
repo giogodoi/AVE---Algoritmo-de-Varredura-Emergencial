@@ -1,0 +1,46 @@
+# ── Dados brutos (nunca subir ao Git) ──────────────────────────────────────
+csv/
+*.csv
+*.parquet
+
+# ── Modelos treinados (grandes, usar Git LFS ou excluir) ───────────────────
+models/*.joblib
+
+# ── Credenciais e configuração local ───────────────────────────────────────
+.env
+*.env
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Ambientes virtuais ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ── IDEs ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Sistema Operacional ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ────────────────────────────────────────────────────────────────────
+*.log
+logs/
